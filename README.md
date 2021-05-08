@@ -32,3 +32,24 @@ Terminal > DropDown > 'Create Javascript Debug Terminal'
 
 
 ## Useful tools
+
+### Diagram
+https://sequencediagram.org/
+https://www.gliffy.com/
+
+### Online Complier
+#### JS
+https://jsbin.com/?html
+
+#### Website Scanning
+https://www.ssllabs.com/ssltest/
+
+### UIUX Prototype
+https://app.zeplin.io/projects
+
+https://overflow.io/
+
+https://www.invisionapp.com/
+
+### Data Model
+https://app.quicktype.io/
