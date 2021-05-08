@@ -1,6 +1,78 @@
 # Notes
 
 ## Mobile Native
+Mobile Native section is aiming to align Android and iOS equivalent on all aspects.
+
+### Title
+#### iOS
+#### Android
+
+### UI
+#### iOS
+declarative ui
+1. SnapKit
+https://github.com/SnapKit/SnapKit\
+https://github.com/springwong/SnapKitten
+
+2. Stevia
+https://github.com/freshOS/Stevia
+
+3. SwiftUI (iOS 12+)
+https://developer.apple.com/xcode/swiftui/
+
+#### Android
+XML (preferred)
+
+declarative ui
+1. Compose UI
+https://developer.android.com/jetpack/compose
+
+### Depedency Injection
+#### iOS
+Swinject (Swift) - lightweight, easy to use
+https://github.com/Swinject/Swinject
+
+#### Android
+Koin (Kotlin) - lightweight, easy to use
+https://github.com/InsertKoinIO/koin
+
+Dagger (Java) - complex, official
+https://github.com/google/dagger
+
+### High Level Navigation
+Abstract the navigation and make it easier to handle
+#### iOS
+XCoordinator
+https://github.com/quickbirdstudios/XCoordinator
+#### Android
+Cicerone
+https://github.com/terrakok/Cicerone
+
+### Image Fetching
+#### iOS
+Kingfisher
+https://github.com/onevcat/Kingfisher\
+SDWebImage
+https://github.com/SDWebImage/SDWebImage
+#### Android
+Glide
+https://github.com/bumptech/glide\
+Picasso
+https://github.com/square/picasso\
+Fresco
+https://github.com/facebook/fresco
+
+### API standard / http client
+#### iOS
+Moya - Standardize API https://github.com/Moya/Moya\
+Alamofire https://github.com/Alamofire/Alamofire
+
+#### Android
+Retrofit - Standardize API https://github.com/square/retrofit\
+okhttp https://github.com/square/okhttp\
+okhttp logging interceptor https://github.com/square/okhttp/tree/master/okhttp-logging-interceptor\
+okhttp profiler plugin https://github.com/itkacher/OkHttpProfiler
+
 
 ## React (.js / native)
 
