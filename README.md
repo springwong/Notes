@@ -18,7 +18,10 @@ https://github.com/springwong/SnapKitten
 https://github.com/freshOS/Stevia
 
 3. SwiftUI (iOS 12+)
-https://developer.apple.com/xcode/swiftui/
+https://developer.apple.com/xcode/swiftui
+
+4. ComponentKit (Facebook)
+https://github.com/facebook/componentkit
 
 #### Android
 XML (preferred)
@@ -85,6 +88,8 @@ SwiftGen https://github.com/SwiftGen/SwiftGen
 native resource system should be enough
 
 ### Debugging
+Flipper https://fbflipper.com/docs/setup/network-plugin
+
 #### iOS
 CocoaLumberjack (Logging) https://github.com/CocoaLumberjack/CocoaLumberjack\
 NSLogger (Mac Desktop App) https://github.com/fpillet/NSLogger\
@@ -159,6 +164,10 @@ https://github.com/stefan-zobel/streamsupport
 
 #### Code conversion
 https://github.com/angelolloqui/SwiftKotlin
+
+#### Command line tools
+iOS https://github.com/facebook/idb\
+Android https://developer.android.com/studio/command-line/adb
 
 ## React (.js / native)
 
