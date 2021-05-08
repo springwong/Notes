@@ -164,6 +164,66 @@ button:foucs-within .dropdown {
     visibility: visible;
 }
 ```
+
+### CSS Units
+```
+// Fixed units
+h1 {
+    font-size: 14px;
+}
+
+// Relative units, em / rem
+// em relative to parent's font size
+// if parent font size is 12px, 2em = 12px * 2 = 24px
+// rem relaive to root font size
+h1 {
+    font-size: 1em;
+    padding: 1rem;
+}
+
+// character width, ch, definition of character here is width of "0"
+// in this example, width is from minimum 45 characters to 75 characters
+.card {
+    width: clamp(45ch, 50%, 75ch);
+}
+
+// relative to viewport, vw / vh, unit is x% of viewport width / height
+// vmin / vmax is relative to 1% of viewport's smaller / larger dimension
+h1 {
+    font-size: 20vw;
+}
+
+```
+
+### CSS color format
+1. rgb
+rgb(255, 0, 0)
+
+2. hsl
+hsl(0, 35%, 50%)
+
+### Scroll
+```
+article {
+    scroll-padding: 1rem 0 0 0;
+}
+```
+
+### Future
+content-visibility
+https://developer.mozilla.org/en-US/docs/Web/CSS/content-visibility
+
+### Performance
+1. multiple css for media
+```
+<!-- style.css contains only the minimal styles needed for the page rendering -->
+<link rel="stylesheet" href="styles.css" media="all" />
+<!-- Following stylesheets have only the styles necessary for the form factor -->
+<link rel="stylesheet" href="sm.css" media="(min-width: 20em)" /><link rel="stylesheet" href="md.css" media="(min-width: 64em)" /><link rel="stylesheet" href="lg.css" media="(min-width: 90em)" /><link rel="stylesheet" href="ex.css" media="(min-width: 120em)" /><link rel="stylesheet" href="print.css" media="print" />
+```
+
+2. Parallel / in-series call on css files
+
 ## Useful tools
 
 ### Diagram
