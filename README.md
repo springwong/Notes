@@ -160,7 +160,22 @@ function App() {
 }
 ```
 
-## Node.js
+## Node.js / JavaScript
+
+### Code Formatting (JavaScript, HTML, CSS, GraphQL, Markdown, YAML)
+https://prettier.io/
+```
+{
+  "trailingComma": "es5",
+  "tabWidth": 4,
+  "semi": false,
+  "singleQuote": true
+}
+```
+
+### Package scan
+1. Bundle size
+https://bundlephobia.com/
 
 ### Debugging
 
@@ -402,3 +417,6 @@ https://www.invisionapp.com/
 
 ### Data Model
 https://app.quicktype.io/
+
+### Git ignore file
+https://www.toptal.com/developers/gitignore
