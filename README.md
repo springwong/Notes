@@ -29,6 +29,28 @@ https://github.com/react-cosmos/react-cosmos
 2. axe-core
 https://github.com/dequelabs/axe-core-npm/tree/develop/packages/react
 
+### State Management
+1. Redux
+https://github.com/reduxjs/react-redux
+
+2. Mobx
+https://github.com/mobxjs/mobx
+
+3. Relay (GraphQL)
+https://github.com/facebook/relay
+
+#### Redux Side Effect Middleware
+1. thunk
+https://github.com/reduxjs/redux-thunk
+
+2. Saga
+https://github.com/redux-saga/redux-saga
+
+3. Rx Observable
+https://github.com/redux-observable/redux-observable
+
+
+
 ## Node.js
 
 ### Debugging
