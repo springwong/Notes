@@ -428,6 +428,31 @@ https://www.wireshark.org/
 #### Proxyman
 https://proxyman.io/
 
+## DevOps
+1. Web / API Deployment\
+OpenShift (Docker)
+https://www.openshift.com/
+
+2. Mobile Deployment\
+Azure DevOps
+https://docs.microsoft.com/en-us/azure/devops/?view=azure-devops
+
+### Pipeline
+Mac agent support
+.yaml: to control the steps
+secure files: store certificate / keystore
+variable group: to store values whiic are private / public to devs
+built binary is stored in Artifact
+
+### Release
+Trigger by artifact build\
+tasks to take action on artifact, i.e. upload testflight, appcenter\
+Approver can be invovled between tasks
+Service connection to setup account information
+
+Fastlane
+https://fastlane.tools/
+
 ## Useful tools
 
 ### Diagram
