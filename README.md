@@ -395,11 +395,53 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/content-visibility
 
 2. Parallel / in-series call on css files
 
+
+
+## API
+
+### API Clients
+
+#### Postman
+[Postman Detail](./README.postman.md)
+
+#### Insonomia
+
+#### PAW
+
+### API Documentation
+https://swagger.io/
+
+### Proxy
+
+#### Charles Proxy
+https://www.charlesproxy.com/
+
+Free, easy to integrate with iOS and Android.\
+mock data available.
+
+#### Fiddler
+https://www.telerik.com/fiddler
+
+#### Wireshark
+https://www.wireshark.org/
+
+#### Proxyman
+https://proxyman.io/
+
 ## Useful tools
 
 ### Diagram
-https://sequencediagram.org/
+
+#### General Diagram
+https://www.lucidchart.com/
 https://www.gliffy.com/
+
+#### Sequence Diagram
+https://sequencediagram.org/
+
+#### Cloud diagram
+https://www.cloudcraft.co/
+https://www.hava.io/
 
 ### Online Complier
 #### JS
@@ -414,6 +456,14 @@ https://app.zeplin.io/projects
 https://overflow.io/
 
 https://www.invisionapp.com/
+
+https://www.figma.com/
+
+### Design
+#### Font Review on design
+https://fontflipper.com/upload
+#### Firebug for designers
+https://github.com/GoogleChromeLabs/ProjectVisBug
 
 ### Data Model
 https://app.quicktype.io/
