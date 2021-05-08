@@ -4,6 +4,41 @@
 
 ## React (.js / native)
 
+### IDE
+
+#### Code Styling
+https://editorconfig.org/
+
+#### Import Path
+https://code.visualstudio.com/docs/languages/jsconfig
+
+#### Visual Studio Code
+https://code.visualstudio.com/
+
+###### Shortcuts
+1. Find file
+CMD + P
+
+2. Search text in file
+CMD + F
+
+3. Search text in workspace
+CMD + SHIFT + F
+
+4. Replace text in workspace
+CMD + SHIFT + H
+
+5. Vertical select
+OPTION + SHIFT + SELECT 
+
+###### Plugins
+1. Numbered Bookmarks
+2. Snippetes (React / Angular JS )
+3. Paste JSON as Code
+4. Prettier - Code formatter
+5. Eslint
+6. Debugger for chrome
+
 ### Debugging
 1. Reactotron
 https://github.com/infinitered/reactotron
