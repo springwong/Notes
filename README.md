@@ -73,6 +73,92 @@ okhttp https://github.com/square/okhttp\
 okhttp logging interceptor https://github.com/square/okhttp/tree/master/okhttp-logging-interceptor\
 okhttp profiler plugin https://github.com/itkacher/OkHttpProfiler
 
+### Resource management
+#### Both
+Twine, share resource with standard data structure https://github.com/scelis/twine
+
+#### iOS
+R.swift https://github.com/mac-cain13/R.swift\
+SwiftGen https://github.com/SwiftGen/SwiftGen
+
+#### Android
+native resource system should be enough
+
+### Debugging
+#### iOS
+CocoaLumberjack (Logging) https://github.com/CocoaLumberjack/CocoaLumberjack\
+NSLogger (Mac Desktop App) https://github.com/fpillet/NSLogger\
+netfox (Network logging) https://github.com/kasketis/netfox\
+FLEX (All-rounded but more injected) https://github.com/FLEXTool/FLEX\
+AlamofireSafariLogger (Safari popup for networking logging) https://github.com/springwong/AlamofireSafariLogger
+
+#### Android
+Logger (Logging) https://github.com/orhanobut/logger\
+Stetho (Network logging) https://github.com/facebook/stetho\
+Chunker (External Android Activity, release mode available) https://github.com/ChuckerTeam/chucker\
+NSLogger (Mac Desktop App) https://github.com/fpillet/NSLogger
+Pandora (All-rounded but more injected) https://github.com/whataa/pandora
+
+### Functional Reactive Programming
+#### iOS
+RxSwift https://github.com/ReactiveX/RxSwift\
+RxSwiftCommunity https://github.com/RxSwiftCommunity
+
+#### Android
+RxJava https://github.com/ReactiveX/RxJava\
+RxKotlin https://github.com/ReactiveX/RxKotlin\
+RxRelay 2-way https://github.com/JakeWharton/RxRelay\
+RxBinding https://github.com/JakeWharton/RxBinding
+
+### Lint
+#### iOS
+SwiftLint https://github.com/realm/SwiftLint
+#### Android
+Ktlint https://github.com/pinterest/ktlint
+
+
+### Hot reload
+#### iOS
+InjectionIII https://github.com/johnno1962/InjectionIII
+#### Android
+Exist in android studio
+
+### Unit Test
+#### iOS
+Slather https://github.com/SlatherOrg/slather
+#### Android
+Local Unit Test
+https://developer.android.com/training/testing/unit-testing/local-unit-tests.html\
+Jacoco
+https://github.com/arturdm/jacoco-android-gradle-plugin
+
+### Data Model
+https://app.quicktype.io/
+
+### Others
+#### Charts
+iOS https://github.com/danielgindi/Charts\
+Android https://github.com/PhilJay/MPAndroidChart
+
+#### Lottie (Animation)
+iOS https://github.com/airbnb/lottie-ios
+Android https://github.com/airbnb/lottie-android
+React Native https://github.com/lottie-react-native/lottie-react-native
+
+#### QR Code
+iOS https://github.com/zxing/zxing\
+Android https://github.com/journeyapps/zxing-android-embedded
+
+#### Lifecycle (Rx)
+iOS https://github.com/onmyway133/RxLifeCycle\
+Android https://developer.android.com/jetpack/androidx/releases/lifecycle
+
+#### Java8 API
+https://github.com/luontola/retrolambda
+https://github.com/stefan-zobel/streamsupport
+
+#### Code conversion
+https://github.com/angelolloqui/SwiftKotlin
 
 ## React (.js / native)
 
