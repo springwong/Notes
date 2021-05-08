@@ -11,6 +11,9 @@ https://github.com/infinitered/reactotron
 2. Facebook Flipper (Default)
 https://github.com/facebook/flipper
 
+3. React DevTools
+https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi
+
 ### UI Components
 1. Storybook
 https://github.com/storybookjs/storybook
@@ -49,7 +52,113 @@ https://github.com/redux-saga/redux-saga
 3. Rx Observable
 https://github.com/redux-observable/redux-observable
 
+### React basic life cycle
+1. componentDidMount
+2. componentDidUpdate
+3. componentWillUnmount
 
+### React Hooks (modern UI without classes)
+https://reactjs.org/docs/hooks-intro.html
+
+#### useState
+```
+function App() {
+    // count: reactiveValue
+    // setCount: setter
+    // 0 here is initial state;
+    const [count, setCount] = useState(0);
+    return (<div>count</div)>);
+}
+```
+
+### useEffect
+```
+function App() {
+    useEffect(() => {
+        // trigger as componentDidMount and componentDidUpdate
+        alert('hello world')
+        // return function trigger when componentWillUnmount
+        return () => alert('componentWillUnmount');
+    },
+    // dependencies, run when array reactiveValue changes
+    [])
+}
+```
+
+### useContext
+Context is based on Context API which provide Content with Provider pattern
+
+### useRef
+mutable value does not re-render UI.
+
+### useReducer
+useReducer is for redux pattern
+```
+function App() {
+    const [state, dispatch] = useReducer();
+    return <>
+        Count: {state},
+        onPress: () => { dispatch({type: 'xxx', payload: {}})}
+    </>
+}
+```
+
+### useMemo
+cache result of function call, rare case to use
+```
+function App() {
+    const [count] = useState(60);
+    const expensiveCount = useMemo(() => {
+        return count ** 2;
+    }, [count])
+
+    return <></>;
+}
+```
+
+### useCallback
+useCallback to prevent unnecessary re-render
+```
+function App() {
+    const [count] = useState(60);
+    const callback = useCallback(() => {
+        alert('123);
+    }, [count])
+
+    return <><button onPress={callback}></button></>;
+}
+```
+
+### useLayoutEffect
+runs after the render but before painting to screen
+blocks visual updates until your callback is finished
+
+### Functional Hook && useDebugValue
+Instead of
+```
+function App() {
+    const [count, setCount] = useState(0);
+    useEffect(() => {
+        alert(count)
+    }, [])
+    return (<div>count</div)>);
+}
+```
+We can
+```
+function countFunc() {
+    const [count, setCount] = useState(0);
+    useEffect(() => {
+        alert(count)
+    }, [])
+    useDebugValue(count ?? 'I am zero')
+    return count;
+}
+function App() {
+    const count = countFunc();
+    return (<div>count</div)>);
+}
+```
 
 ## Node.js
 
