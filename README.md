@@ -29,6 +29,19 @@ Terminal > DropDown > 'Create Javascript Debug Terminal'
 
 ## CSS
 
+### CSS Preprocessor
+PostCSS
+https://postcss.org/
+
+Sass
+https://sass-lang.com/
+
+Stylus
+https://stylus-lang.com/
+
+Less
+https://lesscss.org/
+
 ### Box Model
 ![](./assets/box-model.png)
 
@@ -88,6 +101,69 @@ Advance way:
 }
 ```
 
+### CSS Variables
+```
+// :root is global scope of variables. To use local scope, declare it inside the selector.
+:root {
+    --text-color: rgb(255, 0, 0);
+    --r: 128;
+    --g: 0;
+    --b: 0;
+    --another-color: rgb(var(--r), var(--g), var(--b));
+}
+
+p {
+    color: var(--text-color);
+}
+
+// override text-color in local scope
+h1 {
+    --text-color: rgb(0, 0, 0);
+    color: var(--text-color);
+}
+
+h2 {
+    color: var(--another-color);
+}
+```
+
+### calculation values
+```
+width: calc(100vm - 80px);
+font-size: calc(1rem * 1.25);
+padding: calc(5% + 2px);
+
+// calc X variables to achieve smooth delay
+.order {
+    animation-delay: calc(var(--order) * 100ms);
+}
+<i class="drop" style="--order: 1">1</i>
+<i class="drop" style="--order: 2">2</i>
+<i class="drop" style="--order: 3">3</i>
+```
+
+### CSS Counter (State)
+```
+:root {
+    counter-reset: headings;
+}
+
+h1 {
+    counter-increment: headings;
+}
+
+h1::before {
+    content: counter(headings);
+}
+```
+
+### Focus control
+```
+button:foucs-within .dropdown {
+    opacity: 1;
+    visibility: visible;
+}
+```
 ## Useful tools
 
 ### Diagram
