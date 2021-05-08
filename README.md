@@ -2,7 +2,32 @@
 
 ## Mobile Native
 
-## React
+## React (.js / native)
+
+### Debugging
+1. Reactotron
+https://github.com/infinitered/reactotron
+
+2. Facebook Flipper (Default)
+https://github.com/facebook/flipper
+
+### UI Components
+1. Storybook
+https://github.com/storybookjs/storybook
+
+### Networking / Caching
+1. axios
+https://github.com/axios/axios
+
+2. React Query
+https://react-query.tanstack.com/
+
+### Testing
+1. react cosmos
+https://github.com/react-cosmos/react-cosmos
+
+2. axe-core
+https://github.com/dequelabs/axe-core-npm/tree/develop/packages/react
 
 ## Node.js
 
