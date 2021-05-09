@@ -373,6 +373,18 @@ function App() {
 }
 ```
 
+### Foundation Packages
+1. URL https://nodejs.org/api/url.html\
+2. Lodash https://lodash.com/\
+```
+import _ from "lodash";
+```
+3. React Native Community https://github.com/react-native-community\
+4. moment https://momentjs.com/\
+5. Crypto JS https://github.com/brix/crypto-js
+6. JWT decode https://github.com/auth0
+7. Query String https://nodejs.org/api/querystring.html
+
 ## Node.js / JavaScript
 
 ### Code Formatting (JavaScript, HTML, CSS, GraphQL, Markdown, YAML)
