@@ -3,7 +3,7 @@
 Advantages:
 With scripts, even non-technical member could work with  API calls with instructions.\
 With teams, a consistent structure API clients can be created.\
-Mass test is possbile.
+Mass test is possible.
 Logic avaiable to run flow.
 
 ## Usage
