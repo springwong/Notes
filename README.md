@@ -169,6 +169,17 @@ https://github.com/angelolloqui/SwiftKotlin
 iOS https://github.com/facebook/idb\
 Android https://developer.android.com/studio/command-line/adb
 
+### Mobile Security
+https://github.com/MobSF/Mobile-Security-Framework-MobSF
+
+### Code Generation
+Java https://github.com/square/javapoet
+Kotlin https://github.com/square/kotlinpoet
+Swift https://github.com/krzysztofzablocki/Sourcery
+
+### Memory Leak
+Android https://github.com/square/leakcanary
+
 ## React (.js / native)
 
 ### IDE
@@ -273,7 +284,7 @@ function App() {
 }
 ```
 
-### useEffect
+#### useEffect
 ```
 function App() {
     useEffect(() => {
@@ -287,13 +298,13 @@ function App() {
 }
 ```
 
-### useContext
+#### useContext
 Context is based on Context API which provide Content with Provider pattern
 
-### useRef
+#### useRef
 mutable value does not re-render UI.
 
-### useReducer
+#### useReducer
 useReducer is for redux pattern
 ```
 function App() {
@@ -305,7 +316,7 @@ function App() {
 }
 ```
 
-### useMemo
+#### useMemo
 cache result of function call, rare case to use
 ```
 function App() {
@@ -318,7 +329,7 @@ function App() {
 }
 ```
 
-### useCallback
+#### useCallback
 useCallback to prevent unnecessary re-render
 ```
 function App() {
@@ -331,11 +342,11 @@ function App() {
 }
 ```
 
-### useLayoutEffect
+#### useLayoutEffect
 runs after the render but before painting to screen
 blocks visual updates until your callback is finished
 
-### Functional Hook && useDebugValue
+#### Functional Hook && useDebugValue
 Instead of
 ```
 function App() {
