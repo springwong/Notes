@@ -11,17 +11,17 @@ Mobile Native section is aiming to align Android and iOS equivalent on all aspec
 #### iOS
 declarative ui
 1. SnapKit
-https://github.com/SnapKit/SnapKit\
-https://github.com/springwong/SnapKitten
+- https://github.com/SnapKit/SnapKit
+- https://github.com/springwong/SnapKitten
 
 2. Stevia
-https://github.com/freshOS/Stevia
+- https://github.com/freshOS/Stevia
 
 3. SwiftUI (iOS 12+)
-https://developer.apple.com/xcode/swiftui
+- https://developer.apple.com/xcode/swiftui
 
 4. ComponentKit (Facebook)
-https://github.com/facebook/componentkit
+- https://github.com/facebook/componentkit
 
 #### Android
 XML (preferred)
@@ -32,153 +32,153 @@ https://developer.android.com/jetpack/compose
 
 ### Depedency Injection
 #### iOS
-Swinject (Swift) - lightweight, easy to use
+- Swinject (Swift) - lightweight, easy to use
 https://github.com/Swinject/Swinject
 
 #### Android
-Koin (Kotlin) - lightweight, easy to use
+- Koin (Kotlin) - lightweight, easy to use
 https://github.com/InsertKoinIO/koin
 
-Dagger (Java) - complex, official
+- Dagger (Java) - complex, official
 https://github.com/google/dagger
 
 ### High Level Navigation
 Abstract the navigation and make it easier to handle
 #### iOS
-XCoordinator
+- XCoordinator
 https://github.com/quickbirdstudios/XCoordinator
 #### Android
-Cicerone
+- Cicerone
 https://github.com/terrakok/Cicerone
 
 ### Image Fetching
 #### iOS
-Kingfisher
-https://github.com/onevcat/Kingfisher\
-SDWebImage
+- Kingfisher
+https://github.com/onevcat/Kingfisher
+- SDWebImage
 https://github.com/SDWebImage/SDWebImage
 #### Android
-Glide
-https://github.com/bumptech/glide\
-Picasso
-https://github.com/square/picasso\
-Fresco
+- Glide
+https://github.com/bumptech/glide
+- Picasso
+https://github.com/square/picasso
+- Fresco
 https://github.com/facebook/fresco
 
 ### API standard / http client
 #### iOS
-Moya - Standardize API https://github.com/Moya/Moya\
-Alamofire https://github.com/Alamofire/Alamofire
+- Moya - Standardize API https://github.com/Moya/Moya
+- Alamofire https://github.com/Alamofire/Alamofire
 
 #### Android
-Retrofit - Standardize API https://github.com/square/retrofit\
-okhttp https://github.com/square/okhttp\
-okhttp logging interceptor https://github.com/square/okhttp/tree/master/okhttp-logging-interceptor\
-okhttp profiler plugin https://github.com/itkacher/OkHttpProfiler
+- Retrofit - Standardize API https://github.com/square/retrofit
+- okhttp https://github.com/square/okhttp
+- okhttp logging interceptor https://github.com/square/okhttp/tree/master/okhttp-logging-interceptor
+- okhttp profiler plugin https://github.com/itkacher/OkHttpProfiler
 
 ### Resource management
 #### Both
-Twine, share resource with standard data structure https://github.com/scelis/twine
+- Twine, share resource with standard data structure https://github.com/scelis/twine
 
 #### iOS
-R.swift https://github.com/mac-cain13/R.swift\
-SwiftGen https://github.com/SwiftGen/SwiftGen
+- R.swift https://github.com/mac-cain13/R.swift
+- SwiftGen https://github.com/SwiftGen/SwiftGen
 
 #### Android
 native resource system should be enough
 
 ### Debugging
-Flipper https://fbflipper.com/docs/setup/network-plugin
+- Flipper https://fbflipper.com/docs/setup/network-plugin
 
 #### iOS
-CocoaLumberjack (Logging) https://github.com/CocoaLumberjack/CocoaLumberjack\
-NSLogger (Mac Desktop App) https://github.com/fpillet/NSLogger\
-netfox (Network logging) https://github.com/kasketis/netfox\
-FLEX (All-rounded but more injected) https://github.com/FLEXTool/FLEX\
-AlamofireSafariLogger (Safari popup for networking logging) https://github.com/springwong/AlamofireSafariLogger
+- CocoaLumberjack (Logging) https://github.com/CocoaLumberjack/CocoaLumberjack
+- NSLogger (Mac Desktop App) https://github.com/fpillet/NSLogger
+- netfox (Network logging) https://github.com/kasketis/netfox
+- FLEX (All-rounded but more injected) https://github.com/FLEXTool/FLEX
+- AlamofireSafariLogger (Safari popup for networking logging) https://github.com/springwong/AlamofireSafariLogger
 
 #### Android
-Logger (Logging) https://github.com/orhanobut/logger\
-Stetho (Network logging) https://github.com/facebook/stetho\
-Chunker (External Android Activity, release mode available) https://github.com/ChuckerTeam/chucker\
-NSLogger (Mac Desktop App) https://github.com/fpillet/NSLogger
-Pandora (All-rounded but more injected) https://github.com/whataa/pandora
+- Logger (Logging) https://github.com/orhanobut/logger
+- Stetho (Network logging) https://github.com/facebook/stetho
+- Chunker (External Android Activity, release mode available) https://github.com/ChuckerTeam/chucker
+- NSLogger (Mac Desktop App) https://github.com/fpillet/NSLogger
+- Pandora (All-rounded but more injected) https://github.com/whataa/pandora
 
 ### Functional Reactive Programming
 #### iOS
-RxSwift https://github.com/ReactiveX/RxSwift\
-RxSwiftCommunity https://github.com/RxSwiftCommunity
+- RxSwift https://github.com/ReactiveX/RxSwift
+- RxSwiftCommunity https://github.com/RxSwiftCommunity
 
 #### Android
-RxJava https://github.com/ReactiveX/RxJava\
-RxKotlin https://github.com/ReactiveX/RxKotlin\
-RxRelay 2-way https://github.com/JakeWharton/RxRelay\
-RxBinding https://github.com/JakeWharton/RxBinding
+- RxJava https://github.com/ReactiveX/RxJava
+- RxKotlin https://github.com/ReactiveX/RxKotlin
+- RxRelay 2-way https://github.com/JakeWharton/RxRelay
+- RxBinding https://github.com/JakeWharton/RxBinding
 
 ### Lint
 #### iOS
-SwiftLint https://github.com/realm/SwiftLint
+- SwiftLint https://github.com/realm/SwiftLint
 #### Android
-Ktlint https://github.com/pinterest/ktlint
+- Ktlint https://github.com/pinterest/ktlint
 
 
 ### Hot reload
 #### iOS
-InjectionIII https://github.com/johnno1962/InjectionIII
+- InjectionIII https://github.com/johnno1962/InjectionIII
 #### Android
-Exist in android studio
+- Exist in android studio
 
 ### Unit Test
 #### iOS
-Slather https://github.com/SlatherOrg/slather
+- Slather https://github.com/SlatherOrg/slather
 #### Android
-Local Unit Test
-https://developer.android.com/training/testing/unit-testing/local-unit-tests.html\
-Jacoco
+- Local Unit Test
+https://developer.android.com/training/testing/unit-testing/local-unit-tests.html
+- Jacoco
 https://github.com/arturdm/jacoco-android-gradle-plugin
 
 ### Data Model
-https://app.quicktype.io/
+- https://app.quicktype.io/
 
 ### Others
 #### Charts
-iOS https://github.com/danielgindi/Charts\
-Android https://github.com/PhilJay/MPAndroidChart
+- iOS https://github.com/danielgindi/Charts
+- Android https://github.com/PhilJay/MPAndroidChart
 
 #### Lottie (Animation)
-iOS https://github.com/airbnb/lottie-ios
-Android https://github.com/airbnb/lottie-android
-React Native https://github.com/lottie-react-native/lottie-react-native
+- iOS https://github.com/airbnb/lottie-ios
+- Android https://github.com/airbnb/lottie-android
+- React Native https://github.com/lottie-react-native/lottie-react-native
 
 #### QR Code
-iOS https://github.com/zxing/zxing\
-Android https://github.com/journeyapps/zxing-android-embedded
+- iOS https://github.com/zxing/zxing
+- Android https://github.com/journeyapps/zxing-android-embedded
 
 #### Lifecycle (Rx)
-iOS https://github.com/onmyway133/RxLifeCycle\
-Android https://developer.android.com/jetpack/androidx/releases/lifecycle
+- iOS https://github.com/onmyway133/RxLifeCycle
+- Android https://developer.android.com/jetpack/androidx/releases/lifecycle
 
 #### Java8 API
-https://github.com/luontola/retrolambda
-https://github.com/stefan-zobel/streamsupport
+- https://github.com/luontola/retrolambda
+- https://github.com/stefan-zobel/streamsupport
 
 #### Code conversion
-https://github.com/angelolloqui/SwiftKotlin
+- https://github.com/angelolloqui/SwiftKotlin
 
 #### Command line tools
-iOS https://github.com/facebook/idb\
-Android https://developer.android.com/studio/command-line/adb
+- iOS https://github.com/facebook/idb
+- Android https://developer.android.com/studio/command-line/adb
 
 ### Mobile Security
-https://github.com/MobSF/Mobile-Security-Framework-MobSF
+- https://github.com/MobSF/Mobile-Security-Framework-MobSF
 
 ### Code Generation
-Java https://github.com/square/javapoet
-Kotlin https://github.com/square/kotlinpoet
-Swift https://github.com/krzysztofzablocki/Sourcery
+- Java https://github.com/square/javapoet
+- Kotlin https://github.com/square/kotlinpoet
+- Swift https://github.com/krzysztofzablocki/Sourcery
 
 ### Memory Leak
-Android https://github.com/square/leakcanary
+- Android https://github.com/square/leakcanary
 
 ## React (.js / native)
 
@@ -641,7 +641,7 @@ https://swagger.io/
 #### Charles Proxy
 https://www.charlesproxy.com/
 
-Free, easy to integrate with iOS and Android.\
+Free, easy to integrate with iOS and Android.
 mock data available.
 
 #### Fiddler
@@ -654,26 +654,26 @@ https://www.wireshark.org/
 https://proxyman.io/
 
 ## DevOps
-1. Web / API Deployment\
-OpenShift (Docker)
+1. Web / API Deployment
+- OpenShift (Docker)
 https://www.openshift.com/
 
-2. Mobile Deployment\
-Azure DevOps
+2. Mobile Deployment
+- Azure DevOps
 https://docs.microsoft.com/en-us/azure/devops/?view=azure-devops
 
 ### Pipeline
-Mac agent support
-.yaml: to control the steps
-secure files: store certificate / keystore
-variable group: to store values whiic are private / public to devs
-built binary is stored in Artifact
+- Mac agent support
+- .yaml: to control the steps
+- secure files: store certificate / keystore
+- variable group: to store values whiic are private / public to devs
+- built binary is stored in Artifact
 
 ### Release
-Trigger by artifact build\
-tasks to take action on artifact, i.e. upload testflight, appcenter\
-Approver can be invovled between tasks
-Service connection to setup account information
+- Trigger by artifact build
+- tasks to take action on artifact, i.e. upload testflight, appcenter
+- Approver can be invovled between tasks
+- Service connection to setup account information
 
 Fastlane
 https://fastlane.tools/
@@ -683,40 +683,37 @@ https://fastlane.tools/
 ### Diagram
 
 #### General Diagram
-https://www.lucidchart.com/
-https://www.gliffy.com/
+- https://www.lucidchart.com/
+- https://www.gliffy.com/
 
 #### Sequence Diagram
-https://sequencediagram.org/
+- https://sequencediagram.org/
 
 #### Cloud diagram
-https://www.cloudcraft.co/
-https://www.hava.io/
+- https://www.cloudcraft.co/
+- https://www.hava.io/
 
 ### Online Complier
 #### JS
-https://jsbin.com/?html
+- https://jsbin.com/?html
 
 #### Website Scanning
-https://www.ssllabs.com/ssltest/
+- https://www.ssllabs.com/ssltest/
 
 ### UIUX Prototype
-https://app.zeplin.io/projects
-
-https://overflow.io/
-
-https://www.invisionapp.com/
-
-https://www.figma.com/
+- https://app.zeplin.io/projects
+- https://overflow.io/
+- https://www.invisionapp.com/
+- https://www.figma.com/
 
 ### Design
 #### Font Review on design
-https://fontflipper.com/upload
+- https://fontflipper.com/upload
 #### Firebug for designers
-https://github.com/GoogleChromeLabs/ProjectVisBug
+- https://github.com/GoogleChromeLabs/ProjectVisBug
 
 ### Data Model
-https://app.quicktype.io/
+- https://app.quicktype.io/
 
 ### Git ignore file
-https://www.toptal.com/developers/gitignore
+- https://www.toptal.com/developers/gitignore
