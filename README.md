@@ -221,6 +221,26 @@ OPTION + SHIFT + SELECT
 1. Reactotron
 https://github.com/infinitered/reactotron
 
+#### Custom Command with parameters
+```
+import { ArgType } from "reactotron-core-client";
+
+Reactotron.onCustomCommand({
+  command: "Open Webview",
+  handler: params => { 
+    const path = params.path;
+    // do something
+  },
+  title: "Open Webview", // This shows on the button
+  args: [
+    {
+      name: "path",
+      type: ArgType.String,
+    },
+  ],
+})
+```
+
 2. Facebook Flipper (Default)
 https://github.com/facebook/flipper
 
